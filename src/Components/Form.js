@@ -1,22 +1,21 @@
-import React from 'react';
-
+import React, { useState }  from 'react';
 
 
 
 function Form(props) {
-const [username, setUsername] = useState('');
-const [password, setPassword] = useState('');
+const [username, setUsername] = useState("");
+const [password, setPassword] = useState("");
 
 function handleSubmit(event) {
-
+event.preventDefault();
 }
 
 function handleChangeEmail(event) {
-
+event.preventDefault();
 }
 
 function handleChangePassword(event) {
-
+event.preventDefault();
 }
 
     return (
